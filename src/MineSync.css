@@ -1,0 +1,57 @@
+    .minesync-container {
+        background-color: #1e1e1e;
+        color: #f0f0f0;
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+
+    .hero-section {
+        text-align: center;
+        padding: 40px;
+        background: linear-gradient(145deg, #3a3a3a, #2b2b2b);
+        color: #f0ad4e;
+    }
+
+    .hero-links a {
+        color: #f0ad4e;
+        margin: 0 10px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .solution-overview,
+    .features,
+    .impact-benefits,
+    .technical-approach,
+    .cta-contact {
+        padding: 30px;
+    }
+
+    .modules,
+    .feature-list,
+    .benefit-icons {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .module,
+    .feature-item,
+    .icon {
+        margin: 10px;
+        flex: 1 1 200px;
+        padding: 10px;
+        background: #2b2b2b;
+        border-radius: 8px;
+        color: #f7c6a3;
+    }
+
+    .cta-contact .cta-btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #f0ad4e;
+        color: #1e1e1e;
+        border: none;
+        border-radius: 4px;
+        text-decoration: none;
+    }
