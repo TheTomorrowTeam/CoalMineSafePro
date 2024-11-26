@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "https://github.com/TheTomorrowTeam/CoalMineSafePro/",
+  base: "/CoalMineSafePro/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
